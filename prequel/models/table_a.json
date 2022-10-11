@@ -1,0 +1,24 @@
+{
+  "columns": [
+    {
+      "name_in_source": "id",
+      "name_in_destination": "id",
+      "data_type": "text",
+      "is_primary_key": true
+    },
+    {
+      "name_in_source": "column_x",
+      "name_in_destination": "column_x",
+      "data_type": "integer",
+      "comment": "Some comment about how to use or interpret this column"
+    },
+    {
+      "name_in_source": "updated_at",
+      "name_in_destination": "updated_at",
+      "data_type": "timestamptz",
+      "is_last_modified": true
+    }
+  ],
+  "source_table": "source_schema.source_table",
+  "organization_column": "organization_id"
+}
