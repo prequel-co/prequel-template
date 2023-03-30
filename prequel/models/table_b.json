@@ -1,4 +1,5 @@
 {
+  "model_name": "table_b",
   "columns": [
     {
       "name_in_source": "id",
@@ -10,18 +11,18 @@
       "name_in_source": "column_1",
       "name_in_destination": "column_2",
       "data_type": "text",
-      "comment": "Some comment about how to use or interpret this column"
+      "description": "Some data-consumer facing description about how to use or interpret this column"
     },
      {
       "name_in_source": "column_2",
       "name_in_destination": "column_2",
       "data_type": "text",
-      "comment": "Some comment about how to use or interpret this column"
+      "description": "Another data-consumer facing description about how to use or interpret this column"
     },
     {
       "name_in_source": "updated_at",
       "name_in_destination": "updated_at",
-      "data_type": "timestamptz",
+      "data_type": "timestamp",
       "is_last_modified": true
     }
   ],
