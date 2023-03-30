@@ -1,4 +1,5 @@
 {
+  "model_name",
   "columns": [
     {
       "name_in_source": "id",
@@ -10,12 +11,12 @@
       "name_in_source": "column_x",
       "name_in_destination": "column_x",
       "data_type": "integer",
-      "comment": "Some comment about how to use or interpret this column"
+      "description": "A data-consumer facing description about how to use or interpret this column"
     },
     {
       "name_in_source": "updated_at",
       "name_in_destination": "updated_at",
-      "data_type": "timestamptz",
+      "data_type": "timestamp",
       "is_last_modified": true
     }
   ],
